@@ -1,0 +1,31 @@
+// CODE:
+package test;
+
+import java.util.Scanner;
+
+public class testing {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+      Scanner sc = new Scanner(System.in);
+      System.out.println("ENTER THE NUM1:");
+      int a = sc.nextInt();
+      System.out.println("ENTER THE NUM2:");
+      int b = sc.nextInt();
+      int c = a+b;
+      int d = a*b;
+      int e = a-b;
+      System.out.println(c + " Addition of two numbers.");
+      System.out.println(d + " Multiplication of two numbers.");
+      System.out.println(e + " Subtraction of two numbers.");
+	}
+
+}
+//ouput:
+ENTER THE NUM1:
+12
+ENTER THE NUM2:
+11
+23 Addition of two numbers.
+132 Multiplication of two numbers.
+1 Subtraction of two numbers.
